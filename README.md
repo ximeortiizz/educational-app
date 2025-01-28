@@ -1,3 +1,3 @@
-# educational_app
+# Educational_app
 
 A new Flutter project.
