@@ -26,8 +26,7 @@ class WelcomeScreen extends StatelessWidget{
                   borderRadius: 
                     BorderRadius.only(bottomRight: Radius.circular(70)),
                 ),
-                child: Center(child: Image.network(
-                  'https://i.pinimg.com/736x/26/73/90/2673908b0b5c05f13535bd95d45b4343.jpg',
+                child: Center(child: Image.asset("educational_app/lib/assets/icon_pink.png",
                   width:300,
                   ),
                 ),

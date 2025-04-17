@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget{
@@ -27,6 +29,10 @@ class HomePage extends StatelessWidget{
     Icon(Icons.store, color: Colors.white, size:30),
     Icon(Icons.play_circle_fill, color: Colors.white, size:30),
     Icon(Icons.emoji_events, color: Colors.white, size:30),
+  ];
+
+  List imgList=[
+
   ];
 
   HomePage({super.key});
@@ -125,7 +131,37 @@ class HomePage extends StatelessWidget{
                   ],
                 );
                 }, 
-              )
+              ), 
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text("Courses",
+                  style: TextStyle(
+                    fontSize: 13,
+                    fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  Text("See All",
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.purple,
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(height: 10),
+              GridView.builder(
+                shrinkWrap: true,
+                physics: NeverScrollableScrollPhysics(),
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  childAspectRatio: (MediaQuery.of(context).size.height-50-25)/(4*240),
+                  mainAxisSpacing: 10,
+                  crossAxisSpacing: 10,
+                  ),
+             itemBuilder: ,
+              ), 
             ],
             ),
           ),
