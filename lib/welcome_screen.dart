@@ -18,6 +18,7 @@ class WelcomeScreen extends StatelessWidget{
                   color: Colors.white,
                 ),
               ),
+              
               Container(
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height/1.6,
@@ -26,11 +27,11 @@ class WelcomeScreen extends StatelessWidget{
                   borderRadius: 
                     BorderRadius.only(bottomRight: Radius.circular(70)),
                 ),
-                child: Center(child: Image.asset("educational_app/lib/assets/icon_pink.png",
-                  width:300,
+                child: Center(child:Image.asset("lib/assets/icon_purple.png",
+                width:200,
+                    ),
                   ),
                 ),
-              ),
             ],
             ),
             Align(

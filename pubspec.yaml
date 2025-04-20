@@ -20,4 +20,9 @@ flutter:
 
   assets:
     - lib/assets/icon_pink.png
-
+    - lib/assets/icon_purple.png
+    - lib/assets/books.png
+    - lib/assets/C#.png
+    - lib/assets/Flutter.png
+    - lib/assets/Python.png
+    - lib/assets/React Native.png
