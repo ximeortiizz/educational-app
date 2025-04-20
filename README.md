@@ -1,7 +1,5 @@
 # Educational_app
 
-Educational App
-
 Aplicación móvil desarrollada con Flutter que tiene como objetivo facilitar el aprendizaje a través de una interfaz intuitiva y recursos interactivos.​
 
 🚀 Características
